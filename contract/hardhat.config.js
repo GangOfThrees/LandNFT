@@ -8,7 +8,7 @@ dotenv.config();
 // Go to https://hardhat.org/config/ to learn more
 
 // chain urls
-const LOCAL_EVMC_URL = 'http://127.0.0.1:8545';
+const LOCAL_EVMC_URL = process.env.LOCAL_EVMC_URL || 'http://127.0.0.1:8545';
 
 const MAIN_EVMC_URL = 'https://testnet.bitfinity.network';
 
@@ -24,8 +24,7 @@ const config = {
   },
   defaultNetwork: 'evmc',
   networks: {
-    localhost: {},
-    testnet: {
+    localhost: {
       url: LOCAL_EVMC_URL,
       accounts: [
         ...(process.env.DEPLOYER_SECRET ? [process.env.DEPLOYER_SECRET] : []),

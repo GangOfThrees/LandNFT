@@ -2,7 +2,7 @@
   "name": "hardhat-project",
   "scripts": {
     "compile": "npx hardhat compile",
-    "deploy:testnet": "npx hardhat run scripts/deploy.js --network testnet",
+    "deploy:localhost": "npx hardhat run scripts/deploy.js --network localhost",
     "deploy:evmc": "npx hardhat run scripts/deploy.js --network evmc"
   },
   "devDependencies": {
