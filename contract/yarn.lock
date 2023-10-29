@@ -627,7 +627,7 @@
     mcl-wasm "^0.7.1"
     rustbn.js "~0.2.0"
 
-"@nomicfoundation/hardhat-chai-matchers@^2.0.2":
+"@nomicfoundation/hardhat-chai-matchers@^2.0.0", "@nomicfoundation/hardhat-chai-matchers@^2.0.2":
   version "2.0.2"
   resolved "https://registry.npmjs.org/@nomicfoundation/hardhat-chai-matchers/-/hardhat-chai-matchers-2.0.2.tgz"
   integrity sha512-9Wu9mRtkj0U9ohgXYFbB/RQDa+PcEdyBm2suyEtsJf3PqzZEEjLUZgWnMjlFhATMk/fp3BjmnYVPrwl+gr8oEw==
@@ -637,7 +637,7 @@
     deep-eql "^4.0.1"
     ordinal "^1.0.3"
 
-"@nomicfoundation/hardhat-ethers@^3.0.4":
+"@nomicfoundation/hardhat-ethers@^3.0.0", "@nomicfoundation/hardhat-ethers@^3.0.4":
   version "3.0.4"
   resolved "https://registry.npmjs.org/@nomicfoundation/hardhat-ethers/-/hardhat-ethers-3.0.4.tgz"
   integrity sha512-k9qbLoY7qn6C6Y1LI0gk2kyHXil2Tauj4kGzQ8pgxYXIGw8lWn8tuuL72E11CrlKaXRUvOgF0EXrv/msPI2SbA==
@@ -645,7 +645,7 @@
     debug "^4.1.1"
     lodash.isequal "^4.5.0"
 
-"@nomicfoundation/hardhat-network-helpers@^1.0.9":
+"@nomicfoundation/hardhat-network-helpers@^1.0.0", "@nomicfoundation/hardhat-network-helpers@^1.0.9":
   version "1.0.9"
   resolved "https://registry.npmjs.org/@nomicfoundation/hardhat-network-helpers/-/hardhat-network-helpers-1.0.9.tgz"
   integrity sha512-OXWCv0cHpwLUO2u7bFxBna6dQtCC2Gg/aN/KtJLO7gmuuA28vgmVKYFRCDUqrbjujzgfwQ2aKyZ9Y3vSmDqS7Q==
@@ -657,7 +657,7 @@
   resolved "https://registry.npmjs.org/@nomicfoundation/hardhat-toolbox/-/hardhat-toolbox-3.0.0.tgz"
   integrity sha512-MsteDXd0UagMksqm9KvcFG6gNKYNa3GGNCy73iQ6bEasEgg2v8Qjl6XA5hjs8o5UD5A3153B6W2BIVJ8SxYUtA==
 
-"@nomicfoundation/hardhat-verify@^1.1.1":
+"@nomicfoundation/hardhat-verify@^1.0.0", "@nomicfoundation/hardhat-verify@^1.1.1":
   version "1.1.1"
   resolved "https://registry.npmjs.org/@nomicfoundation/hardhat-verify/-/hardhat-verify-1.1.1.tgz"
   integrity sha512-9QsTYD7pcZaQFEA3tBb/D/oCStYDiEVDN7Dxeo/4SCyHRSm86APypxxdOMEPlGmXsAvd+p1j/dTODcpxb8aztA==
@@ -671,11 +671,6 @@
     semver "^6.3.0"
     table "^6.8.0"
     undici "^5.14.0"
-
-"@nomicfoundation/solidity-analyzer-darwin-arm64@0.1.1":
-  version "0.1.1"
-  resolved "https://registry.npmjs.org/@nomicfoundation/solidity-analyzer-darwin-arm64/-/solidity-analyzer-darwin-arm64-0.1.1.tgz"
-  integrity sha512-KcTodaQw8ivDZyF+D76FokN/HdpgGpfjc/gFCImdLUyqB6eSWVaZPazMbeAjmfhx3R0zm/NYVzxwAokFKgrc0w==
 
 "@nomicfoundation/solidity-analyzer@^0.1.0":
   version "0.1.1"
@@ -839,7 +834,7 @@
   resolved "https://registry.npmjs.org/@tsconfig/node16/-/node16-1.0.4.tgz"
   integrity sha512-vxhUy4J8lyeyinH7Azl1pdd43GJhZH/tP2weN8TntQblOY+A0XbT8DJk1/oCPuOOyg/Ja757rG0CgHcWC8OfMA==
 
-"@typechain/ethers-v6@^0.4.3":
+"@typechain/ethers-v6@^0.4.0", "@typechain/ethers-v6@^0.4.3":
   version "0.4.3"
   resolved "https://registry.npmjs.org/@typechain/ethers-v6/-/ethers-v6-0.4.3.tgz"
   integrity sha512-TrxBsyb4ryhaY9keP6RzhFCviWYApcLCIRMPyWaKp2cZZrfaM3QBoxXTnw/eO4+DAY3l+8O0brNW0WgeQeOiDA==
@@ -847,7 +842,7 @@
     lodash "^4.17.15"
     ts-essentials "^7.0.1"
 
-"@typechain/hardhat@^8.0.3":
+"@typechain/hardhat@^8.0.0", "@typechain/hardhat@^8.0.3":
   version "8.0.3"
   resolved "https://registry.npmjs.org/@typechain/hardhat/-/hardhat-8.0.3.tgz"
   integrity sha512-MytSmJJn+gs7Mqrpt/gWkTCOpOQ6ZDfRrRT2gtZL0rfGe4QrU4x9ZdW15fFbVM/XTa+5EsKiOMYXhRABibNeng==
@@ -875,7 +870,7 @@
   dependencies:
     "@types/chai" "*"
 
-"@types/chai@*", "@types/chai@^4.3.6":
+"@types/chai@*", "@types/chai@^4.2.0", "@types/chai@^4.3.6":
   version "4.3.6"
   resolved "https://registry.npmjs.org/@types/chai/-/chai-4.3.6.tgz"
   integrity sha512-VOVRLM1mBxIRxydiViqPcKn6MIxZytrbMpd6RJLIWKxUNr3zux8no0Oc7kJx0WAPIitgZ0gkrDS+btlqQpubpw==
@@ -912,12 +907,12 @@
   resolved "https://registry.npmjs.org/@types/minimatch/-/minimatch-5.1.2.tgz"
   integrity sha512-K0VQKziLUWkVKiRVrx4a40iPaxTUefQmjtkQofBkYRcoaaL/8rhwDWww9qWbrgicNOgnpIsMxyNIUM4+n6dUIA==
 
-"@types/mocha@^10.0.2":
+"@types/mocha@^10.0.2", "@types/mocha@>=9.1.0":
   version "10.0.2"
   resolved "https://registry.npmjs.org/@types/mocha/-/mocha-10.0.2.tgz"
   integrity sha512-NaHL0+0lLNhX6d9rs+NSt97WH/gIlRHmszXbQ/8/MV/eVcFNdeJ/GYhrFuUc8K7WuPhRhTSdMkCp8VMzhUq85w==
 
-"@types/node@*":
+"@types/node@*", "@types/node@>=12.0.0":
   version "20.8.2"
   resolved "https://registry.npmjs.org/@types/node/-/node-20.8.2.tgz"
   integrity sha512-Vvycsc9FQdwhxE3y3DzeIxuEJbWGDsnrxvMADzTDF/lcdR9/K+AQIeAghTQsHtotg/q0j3WEOYS/jQgSdWue3w==
@@ -1379,7 +1374,7 @@ chai-as-promised@^7.1.1:
   dependencies:
     check-error "^1.0.2"
 
-chai@^4.3.10:
+chai@^4.2.0, chai@^4.3.10, "chai@>= 2.1.2 < 5":
   version "4.3.10"
   resolved "https://registry.npmjs.org/chai/-/chai-4.3.10.tgz"
   integrity sha512-0UXG04VuVbruMUYbJ6JctvH0YnC/4q3/AkT18q4NaITo91CUm0liMS9VqzT9vZhVQ/1eqPanMWjBM+Juhfb/9g==
@@ -1953,7 +1948,7 @@ ethers@^5.7.2:
     "@ethersproject/web" "5.7.1"
     "@ethersproject/wordlists" "5.7.0"
 
-ethers@^6.7.1:
+ethers@^6.1.0, ethers@^6.4.0, ethers@^6.7.1, ethers@6.x:
   version "6.7.1"
   resolved "https://registry.npmjs.org/ethers/-/ethers-6.7.1.tgz"
   integrity sha512-qX5kxIFMfg1i+epfgb0xF4WM7IqapIIu50pOJ17aebkxxa4BacW5jFrQRmCJpDEg2ZK2oNtR5QjrQ1WDBF29dA==
@@ -2129,11 +2124,6 @@ fs.realpath@^1.0.0:
   resolved "https://registry.npmjs.org/fs.realpath/-/fs.realpath-1.0.0.tgz"
   integrity sha512-OO0pH2lK6a0hZnAdau5ItzHPI6pUlvI7jMVnxUQRtw4owF2wk8lOSabtGDCTP4Ggrg2MbGnWO9X8K1t4+fGMDw==
 
-fsevents@~2.3.2:
-  version "2.3.3"
-  resolved "https://registry.npmjs.org/fsevents/-/fsevents-2.3.3.tgz"
-  integrity sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==
-
 function-bind@^1.1.1:
   version "1.1.1"
   resolved "https://registry.npmjs.org/function-bind/-/function-bind-1.1.1.tgz"
@@ -2266,7 +2256,7 @@ handlebars@^4.0.1:
   optionalDependencies:
     uglify-js "^3.1.4"
 
-hardhat-gas-reporter@^1.0.9:
+hardhat-gas-reporter@^1.0.8, hardhat-gas-reporter@^1.0.9:
   version "1.0.9"
   resolved "https://registry.npmjs.org/hardhat-gas-reporter/-/hardhat-gas-reporter-1.0.9.tgz"
   integrity sha512-INN26G3EW43adGKBNzYWOlI3+rlLnasXTwW79YNnUhXPDa+yHESgt639dJEs37gCjhkbNKcRRJnomXEuMFBXJg==
@@ -2275,7 +2265,7 @@ hardhat-gas-reporter@^1.0.9:
     eth-gas-reporter "^0.2.25"
     sha1 "^1.1.1"
 
-hardhat@^2.18.0:
+hardhat@^2.0.0, hardhat@^2.0.2, hardhat@^2.0.4, hardhat@^2.11.0, hardhat@^2.18.0, hardhat@^2.9.4, hardhat@^2.9.5, hardhat@^2.9.9:
   version "2.18.0"
   resolved "https://registry.npmjs.org/hardhat/-/hardhat-2.18.0.tgz"
   integrity sha512-Com3SPFgk6v73LlE3rypuh32DYxOWvNbVBm5xfPUEzGVEW54Fcc4j3Uq7j6COj7S8Jc27uNihLFsveHYM0YJkQ==
@@ -3441,7 +3431,7 @@ solc@0.7.3:
     semver "^5.5.0"
     tmp "0.0.33"
 
-solidity-coverage@^0.8.5:
+solidity-coverage@^0.8.1, solidity-coverage@^0.8.5:
   version "0.8.5"
   resolved "https://registry.npmjs.org/solidity-coverage/-/solidity-coverage-0.8.5.tgz"
   integrity sha512-6C6N6OV2O8FQA0FWA95FdzVH+L16HU94iFgg5wAFZ29UpLFkgNI/DRR2HotG1bC0F4gAc/OMs2BJI44Q/DYlKQ==
@@ -3682,7 +3672,7 @@ ts-essentials@^7.0.1:
   resolved "https://registry.npmjs.org/ts-essentials/-/ts-essentials-7.0.3.tgz"
   integrity sha512-8+gr5+lqO3G84KdiTSMRLtuyJ+nTBVRKuCrK4lidMPdVeEp0uqC875uE5NMcaA7YYMN7XsNiFQuMvasF8HT/xQ==
 
-ts-node@^10.9.1:
+ts-node@*, ts-node@^10.9.1, ts-node@>=8.0.0:
   version "10.9.1"
   resolved "https://registry.npmjs.org/ts-node/-/ts-node-10.9.1.tgz"
   integrity sha512-NtVysVPkxxrwFGUUxGYhfux8k78pQB3JqYBXlLRZgdGUqTO5wU/UyHop5p70iEbGhB7q5KmiZiU0Y3KlJrScEw==
@@ -3748,7 +3738,7 @@ type-fest@^0.7.1:
   resolved "https://registry.npmjs.org/type-fest/-/type-fest-0.7.1.tgz"
   integrity sha512-Ne2YiiGN8bmrmJJEuTWTLJR32nh/JdL1+PSicowtNb0WFpn59GK8/lfD61bVtzguz7b3PBt74nxpv/Pw5po5Rg==
 
-typechain@^8.3.1:
+typechain@^8.2.0, typechain@^8.3.1:
   version "8.3.1"
   resolved "https://registry.npmjs.org/typechain/-/typechain-8.3.1.tgz"
   integrity sha512-fA7clol2IP/56yq6vkMTR+4URF1nGjV82Wx6Rf09EsqD4tkzMAvEaqYxVFCavJm/1xaRga/oD55K+4FtuXwQOQ==
@@ -3769,7 +3759,7 @@ typedarray@^0.0.6:
   resolved "https://registry.npmjs.org/typedarray/-/typedarray-0.0.6.tgz"
   integrity sha512-/aCDEGatGvZ2BIk+HmLf4ifCJFwvKFNb9/JeZPMulfgFracn9QFcAf5GO8B/mweUjSoblS5In0cWhqpfs/5PQA==
 
-typescript@^5.2.2:
+typescript@*, typescript@^5.2.2, typescript@>=2.7, typescript@>=3.7.0, typescript@>=4.3.0, typescript@>=4.5.0, typescript@>=4.7.0:
   version "5.2.2"
   resolved "https://registry.npmjs.org/typescript/-/typescript-5.2.2.tgz"
   integrity sha512-mI4WrpHsbCIcwT9cF4FZvr80QUeKvsUsUvKDoR+X/7XHQH98xYD8YHZg7ANtz2GtZt/CBq2QJ0thkGJMHfqc1w==
